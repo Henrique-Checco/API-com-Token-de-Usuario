@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GerenciamentoBiblioteca.Controllers
 {
-    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class UsuarioController : ControllerBase
@@ -18,6 +17,7 @@ namespace GerenciamentoBiblioteca.Controllers
             _usuarioRepositorio = usuarioRepositorio;
         }
 
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<List<UsuarioModel>>> BuscarTodosUsuarios()
         {
@@ -25,6 +25,7 @@ namespace GerenciamentoBiblioteca.Controllers
             return Ok(usuario);
         }
 
+        [Authorize]
         [HttpGet("{id}")]
 
         public async Task<ActionResult<UsuarioModel>> BuscarPorId(int id)
@@ -41,6 +42,7 @@ namespace GerenciamentoBiblioteca.Controllers
             return Ok(usuario);
         }
 
+        [Authorize]
         [HttpPut("{id}")]
 
         public async Task<ActionResult<UsuarioModel>> Atualizar(int id, [FromBody] UsuarioModel usuarioModel)
@@ -50,6 +52,7 @@ namespace GerenciamentoBiblioteca.Controllers
             return Ok(usuario);
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
 
         public async Task<ActionResult<UsuarioModel>> Apagar(int id)

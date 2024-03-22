@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XOG7Yvfx4ab9wkDvjXCcext8eGZh4eWCOqu1jjIentmOT/eW2LDsVQj8ANidr26z9ke4zKi/mJrBfwiPvDXpqQ==",
+  "dgSpecHash": "QuojK8Pz42ATlv/AEFw8HbEGdwF/mMWAtFLcG6fFpAF74YTax0fcHSFqSOrEQ8G4MlxB1fd3v7I/GHXot2hi4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SENAI3EM\\Desktop\\GerenciamentoBiblioteca\\GerenciamentoBiblioteca\\GerenciamentoBiblioteca.csproj",
+  "projectFilePath": "C:\\Users\\SENAI3EM\\Desktop\\API com Token de Usuário\\GerenciamentoBiblioteca\\GerenciamentoBiblioteca\\GerenciamentoBiblioteca.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SENAI3EM\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\SENAI3EM\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
